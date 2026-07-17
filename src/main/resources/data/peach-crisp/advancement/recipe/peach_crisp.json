@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pink_petals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_petals"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_petals"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "peach-crisp:peach_crisp"
+    ]
+  }
+}
