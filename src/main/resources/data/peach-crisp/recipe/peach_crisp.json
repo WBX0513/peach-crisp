@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:pink_petals",
+    "X": "minecraft:cookie"
+  },
+  "result": {
+    "id": "peach-crisp:peach_crisp",
+    "count": 2
+  }
+}
