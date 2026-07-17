@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "peach-crisp",
+  "version": "${version}",
+  "name": "Peach Crisp",
+  "description": "Adds Peach Crisp, a tasty food item that grants Regeneration.",
+  "authors": ["WBX0513"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/peach-crisp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.wbx.peachCrisp.client.PeachCrispDataGenerator"
+    ],
+    "client": [
+      "com.wbx.peachCrisp.client.PeachCrispClient"
+    ],
+    "main": [
+      "com.wbx.peachCrisp.PeachCrisp"
+    ]
+  },
+  "mixins": [
+    "peach-crisp.mixins.json",
+    {
+      "config": "peach-crisp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
