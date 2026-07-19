@@ -61,6 +61,18 @@ public class PeachCrisp implements ModInitializer {
             PackActivationType.ALWAYS_ENABLED
         );
 
+        ResourceLoader.registerBuiltinPack(
+            Identifier.fromNamespaceAndPath(MOD_ID, "peach_crisp_loot"),
+            FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
+            PackActivationType.ALWAYS_ENABLED
+        );
+
+        ResourceLoader.registerBuiltinPack(
+            Identifier.fromNamespaceAndPath(MOD_ID, "peach_crisp_trades"),
+            FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
+            PackActivationType.ALWAYS_ENABLED
+        );
+
         LOGGER.info("Peach Crisp mod initialized!");
     }
 }
