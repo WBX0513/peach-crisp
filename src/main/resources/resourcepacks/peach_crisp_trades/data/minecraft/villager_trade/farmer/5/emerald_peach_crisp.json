@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "count": 8,
+    "id": "peach-crisp:peach_crisp"
+  },
+  "max_uses": 10000,
+  "wants": {
+    "count": 5,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30
+}
