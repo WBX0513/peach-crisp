@@ -35,7 +35,7 @@ public class VillagerTradeMixin {
         offers.add(new MerchantOffer(
             new ItemCost(Items.EMERALD, 3),
             new ItemStack(Items.GOLDEN_CARROT, 3),
-            12,
+            18,
             30,
             0.05f
         ));
