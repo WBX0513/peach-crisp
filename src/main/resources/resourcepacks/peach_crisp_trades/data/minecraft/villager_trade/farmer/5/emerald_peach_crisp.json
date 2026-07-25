@@ -3,7 +3,7 @@
     "count": 8,
     "id": "peach-crisp:peach_crisp"
   },
-  "max_uses": 10000,
+  "max_uses": 24,
   "wants": {
     "count": 5,
     "id": "minecraft:emerald"
