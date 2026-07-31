@@ -43,8 +43,31 @@ public class PeachCrisp implements ModInitializer {
         )
     );
 
+    public static final Item GOLDEN_PEACH_CRISP = new Item(new Item.Properties()
+        .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "golden_peach_crisp")))
+        .food(
+            new FoodProperties(8, 12.0f, true),
+            Consumable.builder()
+                .consumeSeconds(1.6f)
+                .animation(ItemUseAnimation.EAT)
+                .sound(SoundEvents.GENERIC_EAT)
+                .hasConsumeParticles(true)
+                .onConsume(new ApplyStatusEffectsConsumeEffect(
+                    new MobEffectInstance(MobEffects.HASTE, 3600, 1), 1.0f
+                ))
+                .onConsume(new ApplyStatusEffectsConsumeEffect(
+                    new MobEffectInstance(MobEffects.RESISTANCE, 1200, 0), 1.0f
+                ))
+                .onConsume(new ApplyStatusEffectsConsumeEffect(
+                    new MobEffectInstance(MobEffects.REGENERATION, 200, 1), 1.0f
+                ))
+                .build()
+        )
+    );
+
     public static void initialize() {
         Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "peach_crisp"), PEACH_CRISP);
+        Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "golden_peach_crisp"), GOLDEN_PEACH_CRISP);
     }
 
     @Override
@@ -52,7 +75,10 @@ public class PeachCrisp implements ModInitializer {
         initialize();
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(
-            creativeTab -> creativeTab.accept(PEACH_CRISP)
+            creativeTab -> {
+                creativeTab.accept(PEACH_CRISP);
+                creativeTab.accept(GOLDEN_PEACH_CRISP);
+            }
         );
 
         ResourceLoader.registerBuiltinPack(
