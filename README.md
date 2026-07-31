@@ -1,12 +1,34 @@
 # Peach Crisp (桃酥)
 
-A new food item has been added to Minecraft: Peach Crisp.
+#### Two new foods have been added to Minecraft: Peach Crisp and Golden Peach Crisp.
 
 Update log:
 
+**1.2-snapshot-4**：
+- Incorporate the module [Homepage](https://modrinth.com/mod/peach-crisp) into the code.
+
+**1.2-snapshot-3**：
+- Add acoikonjac123 as another mod author in the code.
+
+**1.2-snapshot-2**：
+- The unlocking method for the recipes of Peach Crisp and Golden Peach Crisp has been changed.
+- The unlock method for Golden Peach Crisp has been changed to: obtain a gold ingot, peach crisp, or golden peach crisp.
+- The unlock method for Peach Crisp has been changed to: obtain either cookies, pink petal, or peach crisp.
+
+**1.2-snapshot-1**：
+- Add golden peach crisp.
+The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple, except that the filling is peach crisp instead.
+- Eating Golden Peach Crisp now can restore 8 hunger points and 12 saturation, and grant Urgency II for 3:00, Resistance Boost I for 1:00, and Health Regeneration II for 0:10.
+
+**1.1：**
+- Fix the resource pack version number.
+
+**1.1-snapshot-4**：
+- "In transactions with master farmers, there is a 50% chance to purchase 8 peach crisp with 5 emerald." This restriction allows for 24 transactions.
+
 **1.1-snapshot-3**：
-- In a transaction with a master farmer, there is a 50% chance to purchase 8 peach cakes with 5 green gems.
-- Add peach cakes to the chests in villages, abandoned mines, dungeons, desert temples, and ancient cities.
+- In a transaction with a master farmer, there is a 50% chance to purchase 8 peach crisp with 5 emerald.
+- Add peach crisp to the chests in villages, abandoned mines, dungeons, desert temples, and ancient cities.
 
 **1.1-snapshot-2**：
 - Fixed the bug in the "Balanced Diet" challenge, which is now displayed normally.
@@ -25,9 +47,33 @@ Update log:
 - Add peach crisp, and combine two peach cakes with four pink flower clusters and one cookie.
 - Consuming it will grant 3 seconds of Health Regeneration II.
 
-为我的世界新增了一款食物：桃酥。
+---
+
+#### 为我的世界新增了两款食物：桃酥和金桃酥。
 
 更新日志：
+
+**1.2-snapshot-4**：
+- 在代码中加入模组[首页](https://modrinth.com/mod/peach-crisp)。
+
+**1.2-snapshot-3**：
+- 在代码中添加acoikonjac123为另一个模组作者。
+
+**1.2-snapshot-2**：
+- 更改了桃酥和金桃酥的配方解锁方式。
+- 金桃酥解锁方式变更为：获得金锭或桃酥或金桃酥。
+- 桃酥解锁方式变更为：获得曲奇或粉红色花簇或桃酥。
+
+**1.2-snapshot-1**：
+- 加入金桃酥。
+- 金桃酥的合成配方和金苹果一样，只不过中间是桃酥。
+- 现在食用金桃酥可以回复 8 点饥饿值、12 饱和度，并获得急迫 II 3:00、抗性提升 I 1:00、生命恢复 II 0:10。
+
+**1.1**：
+- 修复资源包版本号。
+
+**1.1-snapshot-4**：
+- “在与大师级农夫的交易中，有50%的概率可以用5个绿宝石购买8个桃酥”这一项限制交易24次。
 
 **1.1-snapshot-3**：﻿
 - 在与大师级农夫的交易中，有50%的概率可以用5个绿宝石购买8个桃酥。
