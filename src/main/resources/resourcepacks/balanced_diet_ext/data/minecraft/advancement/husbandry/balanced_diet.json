@@ -225,6 +225,14 @@
       },
       "trigger": "minecraft:consume_item"
     },
+    "golden_peach_crisp": {
+      "conditions": {
+        "item": {
+          "items": "peach-crisp:golden_peach_crisp"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "poisonous_potato": {
       "conditions": {
         "item": {
@@ -383,7 +391,8 @@
     ["sweet_berries"],
     ["honey_bottle"],
     ["glow_berries"],
-    ["peach_crisp"]
+    ["peach_crisp"],
+    ["golden_peach_crisp"]
   ],
   "rewards": {
     "experience": 100
