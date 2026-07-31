@@ -4,10 +4,10 @@
   "version": "${version}",
   "name": "Peach Crisp",
   "description": "Adds Peach Crisp, a tasty food item that grants Regeneration.",
-  "authors": ["WBX0513"],
+  "authors": ["WBX0513", "acoikonjac123"],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://modrinth.com/mod/peach-crisp",
+    "sources": "https://github.com/WBX0513/peach-crisp"
   },
   "license": "MIT",
   "icon": "assets/peach-crisp/icon.png",
