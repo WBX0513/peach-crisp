@@ -4,8 +4,14 @@
 
 Update log:
 
+**1.2-snapshot-6**：
+- Add golden peach crisp to the "balanced diet" category.
+
+**1.2-snpshot-5**：
+- Fixed the bug where the "Peach Crisp" achievement could not be obtained and displayed.
+
 **1.2-snapshot-4**：
-- Incorporate the module [Homepage](https://modrinth.com/mod/peach-crisp) into the code.
+- Add the mod [Homepage](https://modrinth.com/mod/peach-crisp) into the code.
 
 **1.2-snapshot-3**：
 - Add acoikonjac123 as another mod author in the code.
@@ -52,6 +58,12 @@ The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple
 #### 为我的世界新增了两款食物：桃酥和金桃酥。
 
 更新日志：
+
+**1.2-snapshot-6**：
+- 在“均衡饮食”中添加金桃酥。
+
+**1.2-snpshot-5**：
+- 修复了“桃酥！”成就无法获得及显示的Bug。
 
 **1.2-snapshot-4**：
 - 在代码中加入模组[首页](https://modrinth.com/mod/peach-crisp)。
