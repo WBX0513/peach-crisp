@@ -4,6 +4,10 @@
 
 Update log:
 
+**1.2-snapshot-7**：
+- Pig Spirits are now attracted to Golden Peach Crisps, but you cannot barter them with Golden Peach Crisps.
+- If the Pig Spirit takes away your Golden Peach Crisps, it will drop a corresponding number of Golden Peach Crisps when it dies.
+
 **1.2-snapshot-6**：
 - Add golden peach crisp to the "balanced diet" category.
 
@@ -26,7 +30,7 @@ Update log:
 The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple, except that the filling is peach crisp instead.
 - Eating Golden Peach Crisp now can restore 8 hunger points and 12 saturation, and grant Urgency II for 3:00, Resistance Boost I for 1:00, and Health Regeneration II for 0:10.
 
-**1.1：**
+**1.1**：
 - Fix the resource pack version number.
 
 **1.1-snapshot-4**：
@@ -59,6 +63,10 @@ The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple
 
 更新日志：
 
+**1.2-snapshot-7**：
+- 猪灵现在会被金桃酥吸引，但你无法用金桃酥和它们以物易物。
+- 如果猪灵拿走了你的金桃酥，它死后将掉落对应数量的金桃酥。
+
 **1.2-snapshot-6**：
 - 在“均衡饮食”中添加金桃酥。
 
@@ -87,7 +95,7 @@ The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple
 **1.1-snapshot-4**：
 - “在与大师级农夫的交易中，有50%的概率可以用5个绿宝石购买8个桃酥”这一项限制交易24次。
 
-**1.1-snapshot-3**：﻿
+**1.1-snapshot-3**：
 - 在与大师级农夫的交易中，有50%的概率可以用5个绿宝石购买8个桃酥。
 - 在村庄，废弃矿井，地牢，沙漠神殿和古城的箱子中添加桃酥。
 
