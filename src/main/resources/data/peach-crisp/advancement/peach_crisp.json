@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "peach-crisp:peach_crisp"
+    },
+    "title": {
+      "translate": "advancement.peach-crisp.peach_crisp.title"
+    },
+    "description": {
+      "translate": "advancement.peach-crisp.peach_crisp.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "has_peach_crisp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "peach-crisp:peach_crisp"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_peach_crisp"
+    ]
+  ]
+}

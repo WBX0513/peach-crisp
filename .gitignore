@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+
+# Run directory (Minecraft game files)
+run/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

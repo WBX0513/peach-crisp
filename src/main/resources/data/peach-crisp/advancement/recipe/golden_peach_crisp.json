@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    },
+    "has_golden_peach_crisp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "peach-crisp:golden_peach_crisp"
+          }
+        ]
+      }
+    },
+    "has_peach_crisp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "peach-crisp:peach_crisp"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gold_ingot",
+      "has_golden_peach_crisp",
+      "has_peach_crisp"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "peach-crisp:golden_peach_crisp"
+    ]
+  }
+}

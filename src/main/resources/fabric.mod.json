@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "peach-crisp",
+  "version": "${version}",
+  "name": "Peach Crisp",
+  "description": "Adds Peach Crisp, a tasty food item that grants Regeneration.",
+  "authors": ["WBX0513", "acoikonjac123"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/peach-crisp",
+    "sources": "https://github.com/WBX0513/peach-crisp"
+  },
+  "license": "MIT",
+  "icon": "assets/peach-crisp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.ygreenmc.mods.peachcrisp.client.PeachCrispDataGenerator"
+    ],
+    "client": [
+      "net.ygreenmc.mods.peachcrisp.client.PeachCrispClient"
+    ],
+    "main": [
+      "net.ygreenmc.mods.peachcrisp.PeachCrisp"
+    ]
+  },
+  "mixins": [
+    "peach-crisp.mixins.json",
+    {
+      "config": "peach-crisp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
