@@ -4,7 +4,8 @@
   "package": "net.ygreenmc.mods.peachcrisp.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
-    "VillagerTradeMixin"
+    "VillagerTradeMixin",
+    "ServerAdvancementManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
