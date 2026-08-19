@@ -1,8 +1,10 @@
-# Peach Crisp (桃酥)
-
 #### Two new foods have been added to Minecraft: Peach Crisp and Golden Peach Crisp.
 
 Update log:
+
+**1.2-pre-2**：
+- Optimized and refactored the code.
+- Added some language translations.
 
 **1.2-pre-1**：
 - The package name has been modified.
@@ -66,6 +68,10 @@ The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple
 
 更新日志：
 
+**1.2-pre-2**：
+- 对代码进行了优化和重构。
+- 加入了一些语言翻译。
+
 **1.2-pre-1**：
 - 修改了程序包名。
 
@@ -77,7 +83,6 @@ The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple
 - 在“均衡饮食”中添加金桃酥。
 
 **1.2-snapshot-5**：
-
 - 修复了“桃酥！”成就无法获得及显示的Bug。
 
 **1.2-snapshot-4**：
