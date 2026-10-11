@@ -37,7 +37,7 @@ public class PeachCrisp implements ModInitializer {
     public static final Item PEACH_CRISP = new Item(new Item.Properties()
         .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "peach_crisp")))
         .food(
-            new FoodProperties(4, 0.6f, false),
+            new FoodProperties(4, 6.0f, false),
             Consumable.builder()
                 .consumeSeconds(1.6f)
                 .animation(ItemUseAnimation.EAT)
