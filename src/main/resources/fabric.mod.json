@@ -7,7 +7,8 @@
   "authors": ["WBX0513", "acoikonjac123"],
   "contact": {
     "homepage": "https://modrinth.com/mod/peach-crisp",
-    "sources": "https://github.com/WBX0513/peach-crisp"
+    "sources": "https://github.com/WBX0513/peach-crisp",
+    "issues": "https://github.com/WBX0513/peach-crisp/issues"
   },
   "license": "MIT",
   "icon": "assets/peach-crisp/icon.png",
