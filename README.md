@@ -2,6 +2,13 @@
 
 Update log:
 
+**1.2.4：**
+- The cover icon has been modified.
+- I have added a link for issue reporting to the source code.
+
+**1.2.3**：
+- The saturation of the peach crisp was adjusted.
+
 **1.2.2**：
 - Add "Obtain Golden Peach Crisp" to the achievement acquisition method for "Peach Crisp!".
 
@@ -76,6 +83,13 @@ The synthesis recipe for Golden Peach Crisp is the same as that for Golden Apple
 #### 为我的世界新增了两款食物：桃酥和金桃酥。
 
 更新日志：
+
+**1.2.4：**
+- 修改了封面图标。
+- 向源代码里加入了问题汇报的链接。
+
+**1.2.3**：
+- 修改了桃酥的饱和度。
 
 **1.2.2**：
 - 将“获得金桃酥”加入到“桃酥！”成就的获取方式中。
